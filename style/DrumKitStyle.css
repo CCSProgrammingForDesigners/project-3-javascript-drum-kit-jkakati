@@ -1,0 +1,224 @@
+html {
+  background: url(../images/DrumKit.png) top center;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: brown;
+  box-shadow: 0 0 1rem orange;
+}
+
+.letter {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  ;
+  color: white;
+  font-style: initial;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sound {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  ;
+  color: yellow;
+}
+
+main {
+  list-style: none;
+  margin: 0;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  /* background: gray; */
+  justify-content: center;
+  align-items: center;
+  min-height: 900px;
+}
+
+main .dkA {
+  list-style: none;
+  min-height: 100px;
+  min-width: 100px;
+  text-align: center;
+  text-justify: center;
+
+  padding: 10px;
+  margin: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-style: initial;
+
+  border: 3px solid black;
+  border-radius: 20px;
+  transition: all 0.06s ease;
+  text-shadow: 0 0 2px black;
+}
+
+main .dkS {
+  list-style: none;
+  min-height: 100px;
+  min-width: 100px;
+  text-align: center;
+  text-justify: center;
+
+  padding: 10px;
+  margin: 10px;
+  background: rgba(238, 130, 238, 0.5);
+  color: white;
+  font-style: initial;
+
+  border: 3px solid black;
+  border-radius: 20px;
+  transition: all 0.06s ease;
+  text-shadow: 0 0 2px black;
+}
+
+main .dkD {
+  list-style: none;
+  min-height: 100px;
+  min-width: 100px;
+  text-align: center;
+  text-justify: center;
+
+  padding: 10px;
+  margin: 10px;
+  background: rgba(76, 0, 130, 0.5);
+  color: white;
+  font-style: initial;
+
+  border: 3px solid black;
+  border-radius: 20px;
+  transition: all 0.06s ease;
+  text-shadow: 0 0 2px black;
+}
+
+main .dkF {
+  list-style: none;
+  min-height: 100px;
+  min-width: 100px;
+  text-align: center;
+  text-justify: center;
+
+  padding: 10px;
+  margin: 10px;
+  background: rgba(0, 0, 255, 0.5);
+  color: white;
+  font-style: initial;
+
+  border: 3px solid black;
+  border-radius: 20px;
+  transition: all 0.06s ease;
+  text-shadow: 0 0 2px black;
+}
+
+main .dkG {
+  list-style: none;
+  min-height: 100px;
+  min-width: 100px;
+  text-align: center;
+  text-justify: center;
+
+  padding: 10px;
+  margin: 10px;
+  background: rgba(0, 128, 0, 0.5);
+  color: white;
+  font-style: initial;
+
+  border: 3px solid black;
+  border-radius: 20px;
+  transition: all 0.06s ease;
+  text-shadow: 0 0 2px black;
+}
+
+main .dkH {
+  list-style: none;
+  min-height: 100px;
+  min-width: 100px;
+  text-align: center;
+  text-justify: center;
+
+  padding: 10px;
+  margin: 10px;
+  background: rgba(255, 255, 0, 0.5);
+  color: white;
+  font-style: initial;
+
+  border: 3px solid black;
+  border-radius: 20px;
+  transition: all 0.06s ease;
+  text-shadow: 0 0 2px black;
+}
+
+main .dkJ {
+  list-style: none;
+  min-height: 100px;
+  min-width: 100px;
+  text-align: center;
+  text-justify: center;
+
+  padding: 10px;
+  margin: 10px;
+  background: rgba(255, 166, 0, 0.5);
+  color: white;
+  font-style: initial;
+
+  border: 3px solid black;
+  border-radius: 20px;
+  transition: all 0.06s ease;
+  text-shadow: 0 0 2px black;
+}
+
+main .dkK {
+  list-style: none;
+  min-height: 100px;
+  min-width: 100px;
+  text-align: center;
+  text-justify: center;
+
+  padding: 10px;
+  margin: 10px;
+  background: rgba(255, 0, 0, 0.5);
+  color: white;
+  font-style: initial;
+
+  border: 3px solid black;
+  border-radius: 20px;
+  transition: all 0.06s ease;
+  text-shadow: 0 0 2px black;
+}
+
+main .dkL {
+  list-style: none;
+  min-height: 100px;
+  min-width: 100px;
+  text-align: center;
+  text-justify: center;
+
+  padding: 10px;
+  margin: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-style: initial;
+
+  border: 3px solid black;
+  border-radius: 20px;
+  transition: all 0.06s ease;
+  text-shadow: 0 0 2px black;
+}
